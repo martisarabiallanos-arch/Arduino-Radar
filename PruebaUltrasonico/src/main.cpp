@@ -46,7 +46,7 @@ void loop()
     digitalWrite(LedV,LOW);
     digitalWrite(LedA,LOW);      
     digitalWrite(LedR,HIGH);
-  } else if (cm <30) {
+  } else if (cm <30) { 
     digitalWrite(LedV,LOW);
     digitalWrite(LedA,HIGH);      
     digitalWrite(LedR,LOW);
